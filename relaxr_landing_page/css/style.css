@@ -1,0 +1,231 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+
+/** {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+     font-family: "Open Sans";
+}*/
+
+/* Clear fix hack */
+/*.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}*/
+/*
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px;  note the padding around a right floated image 
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; note the padding around a left floated image 
+}*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/*body {
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;   
+  background-size: cover;
+  position: relative;
+}*/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#container {
+  font-family: "Open Sans";
+  line-height: 1.4;
+}
+
+#div1 {
+  position: relative;
+  overflow: hidden;
+  background-image: url(../images/header_bg.jpg);
+  background-size: cover;
+  height: 600px;
+  width: auto;
+  margin-left: 16%;
+  margin-right: 16%;
+  text-align: center;
+}
+
+#div2 {
+  overflow: hidden;
+  background-color: #f0efef;
+  height: 300px;
+  width: auto;
+  margin-right: 16%;
+  margin-left: 16%;
+}
+
+#div2content {
+  margin-left: 15%;
+  margin-right: 30%;
+}
+
+#div3 {
+  background-image: url(../images/testimonial_bg.jpg);
+  height: 300px;
+  width: auto;
+  margin-right: 16%;
+  margin-left: 16%;
+  background-position: center bottom;
+  text-align: center;
+  font-weight: 300;
+  font-style: italic;
+  color: white;
+  font-size: 18px;
+
+}
+
+#benefits {
+  color: #121212;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+
+#getit {
+  display: inline-block;
+  text-align: center;
+  font-weight: 800;
+  font-size: 14px;
+  border: 5px solid #f9e42e;
+  border-radius: 5px;
+  padding: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+  background-color: #f9e42e;
+}
+
+body {
+  border: hidden;
+  
+}
+#relaxr {
+  text-align: left;
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+#relaxr2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9e42e;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 24px:
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+}
+
+#paragraph1 {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+ul {
+  margin-top: 18px;
+  font-weight: 300;
+  font-size: 13px;
+  margin-left: 40px;
+}
+
+#paragraph2 {
+  display: inline-block;
+  margin-top: 8%;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+#paragraph3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#div4 {
+  overflow: hidden;
+  background-color: #f9e42e;
+  height: 70px;
+  width: auto;
+  margin-right: 16%;
+  margin-left: 16%;
+  text-align: center;
+}
+
+#div5 {
+  text-align: center;
+  overflow: hidden;
+  background-color: #121212;
+  height: 250px;
+  width: auto;
+  margin-right: 16%;
+  margin-left: 16%;
+}
+
+#signup {
+  color: white;
+  margin-top: 2%;
+  display: inline-block;
+  text-align: center;
+  font-weight: 800;
+  font-size: 12px;
+  border: 5px solid #033048;
+  border-radius: 5px;
+  padding: none;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #033048;
+}
+
+#copyright {
+  font-weight: 600;
+  font-size: 9px;
+  color: white;
+  margin-top: 40px;
+}
+
+#twiiter {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+#facebook {
+  margin-top: 40px;
+  margin-left: 20px;
+}
